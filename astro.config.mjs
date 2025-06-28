@@ -36,7 +36,7 @@ export default defineConfig({
 					label: '规则（详细版）',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: '1.民主权利', slug: '/规则（详细版）/1.民主权利.md' },
+						{ label: '1.民主权利', slug: '/规则（详细版）/1.民主权利' },
 					],
 				},
 			],
