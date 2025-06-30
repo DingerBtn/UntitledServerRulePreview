@@ -8,7 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'Untitled 服务器文档站',
 			logo: {
-				src: './src/assets/logo.ico',
+				src: './src/assets/logo_128_128.svg',
 			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/DingerBtn/UntitledServerRule' }],
 			sidebar: [
