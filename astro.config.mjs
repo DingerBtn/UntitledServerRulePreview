@@ -12,6 +12,10 @@ export default defineConfig({
             },
             // https://starlight.astro.build/zh-cn/reference/configuration/#favicon
             favicon: '/logo_64_64.ico',
+            // https://starlight.astro.build/zh-cn/guides/css-and-tailwind/#%E8%87%AA%E5%AE%9A%E4%B9%89-css-%E6%A0%B7%E5%BC%8F
+            customCss: [
+                './src/styles/custom.css',
+            ],
             social: [{icon: 'github', label: 'GitHub', href: 'https://github.com/DingerBtn/UntitledServerRule'}],
             sidebar: [
                 {
