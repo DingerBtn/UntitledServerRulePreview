@@ -7,6 +7,8 @@ export default defineConfig({
     integrations: [
         starlight({
             title: 'Untitled 服务器文档站',
+            // https://starlight.astro.build/zh-cn/guides/customization/#%E7%A6%81%E7%94%A8%E9%BB%98%E8%AE%A4-404-%E9%A1%B5%E9%9D%A2
+            disable404Route: true,
             logo: {
                 src: './src/assets/logo_64_64.svg',
             },
