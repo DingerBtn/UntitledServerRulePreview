@@ -23,6 +23,13 @@ export default defineConfig({
 					autogenerate: { directory: '公示及教程' },
 				},
 			],
+			// https://starlight.astro.build/zh-cn/guides/i18n/#%E5%8D%95%E8%AF%AD%E8%A8%80%E7%BD%91%E7%AB%99
+			locales: {
+				root: {
+					label: '简体中文',
+					lang: 'zh-CN',
+				},
+			},
 		}),
 	],
 });
