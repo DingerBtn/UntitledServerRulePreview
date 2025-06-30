@@ -8,7 +8,7 @@ export default defineConfig({
         starlight({
             title: 'Untitled 服务器文档站',
             logo: {
-                src: './src/assets/logo_128_128.svg',
+                src: './src/assets/logo_64_64.svg',
             },
             // https://starlight.astro.build/zh-cn/reference/configuration/#favicon
             favicon: '/logo_64_64.ico',
