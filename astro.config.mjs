@@ -2,19 +2,16 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-const logoPath = './src/assets/logo_128_128.svg'
-
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Untitled 服务器文档站',
 			logo: {
-				src: logoPath,
+				src: './src/assets/logo_128_128.svg',
 			},
             // https://starlight.astro.build/zh-cn/reference/configuration/#favicon
-            // 实际上，不放在 public/ 下，而直接使用一般路径也是可以的
-			favicon: logoPath,
+			favicon: '/logo_64_64.ico',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/DingerBtn/UntitledServerRule' }],
 			sidebar: [
 				{
