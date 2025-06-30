@@ -12,10 +12,8 @@ export default defineConfig({
             },
             // https://starlight.astro.build/zh-cn/reference/configuration/#favicon
             favicon: '/logo_64_64.ico',
-            // https://starlight.astro.build/zh-cn/guides/css-and-tailwind/#%E8%87%AA%E5%AE%9A%E4%B9%89-css-%E6%A0%B7%E5%BC%8F
-            customCss: [
-                './src/styles/custom.css',
-            ],
+            // https://starlight.astro.build/zh-cn/reference/configuration/#lastupdated
+            lastUpdated: true,
             social: [{icon: 'github', label: 'GitHub', href: 'https://github.com/DingerBtn/UntitledServerRule'}],
             sidebar: [
                 {
@@ -27,7 +25,7 @@ export default defineConfig({
                     autogenerate: {directory: '公示及教程'},
                 },
             ],
-            // https://starlight.astro.build/zh-cn/guides/i18n/#%E5%8D%95%E8%AF%AD%E8%A8%80%E7%BD%91%E7%AB%99
+            // https://starlight.astro.build/zh-cn/reference/configuration/#lastupdated
             locales: {
                 root: {
                     label: '简体中文',
